@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Settings – adjust if necessary
 ROOT_MOUNT="/mnt/@root"                        # Mount point of the root subvolume
 SNAPSHOT_DIR="/mnt/@root/btrfs_snapshots"      # Directory for storing snapshots
 SUBVOL_NAME="@root"                            # Name of the root subvolume

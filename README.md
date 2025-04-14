@@ -1,2 +1,14 @@
-# btrfs-snapshot-manager
-A simple Bash script to manage Btrfs snapshots. It allows you to create, restore, and list snapshots, as well as safely remove old snapshots and subvolumes.
+# Snapshot Manager Script
+
+This script allows you to create, list, and restore Btrfs snapshots, specifically designed to work with the root subvolume.
+
+## Requirements
+
+Before running the script, ensure that the relevant partition is mounted with the correct subvolume ID (`subvolid=5`). Additionally, the partition should be mounted directly to `/mnt`.
+
+### Mounting the Partition
+
+To mount the partition with `subvolid=5` to `/mnt`, use the following command:
+
+```bash
+sudo mount -o subvolid=5 /dev/sda* /mnt
