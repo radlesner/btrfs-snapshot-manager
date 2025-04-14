@@ -1,6 +1,6 @@
 # Snapshot Manager Script
 
-This script allows you to create, list, and restore Btrfs snapshots, specifically designed to work with the root subvolume.
+This script allows you to create, list, and restore Btrfs snapshots, specifically designed to work with the root subvolume. It is tailored for use with a LiveUSB environment.
 
 ## Requirements
 
