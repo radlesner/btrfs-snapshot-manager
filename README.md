@@ -11,4 +11,4 @@ Before running the script, ensure that the relevant partition is mounted with th
 To mount the partition with `subvolid=5` to `/mnt`, use the following command:
 
 ```bash
-sudo mount -o subvolid=5 /dev/sda* /mnt
+mount -o subvolid=5 /dev/sda* /mnt
