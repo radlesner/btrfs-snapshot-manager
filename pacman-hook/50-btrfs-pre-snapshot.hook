@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Creating Btrfs snapshot before upgrade...
+When = PreTransaction
+Exec = /usr/local/bin/pre-update-snapshot.sh
